@@ -268,12 +268,6 @@ plt.xlabel('月份',fontsize=12)
 
 
 
-
-    Text(0.5,0,'月份')
-
-
-
-
 ![png](output_25_1.png)
 
 
