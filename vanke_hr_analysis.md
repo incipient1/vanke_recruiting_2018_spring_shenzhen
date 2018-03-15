@@ -201,7 +201,7 @@ plt.title('各部门对人员工作经验要求');
 ```
 
 
-![png](output_16_0.png)
+![部门对人员工作经验要求](https://github.com/incipient1/vanke_recruiting_2018_spring_shenzhen/blob/master/img/output_16_0.png)
 
 
 结论：万科社招对人员要求工作经验主要集中3~5年
@@ -230,7 +230,7 @@ for p in ax.patches:
 ```
 
 
-![png](output_19_0.png)
+![各部门招聘人数](https://github.com/incipient1/vanke_recruiting_2018_spring_shenzhen/blob/master/img/output_19_0.png)
 
 
 结论：物业事业部招聘人数明显多于其它部门
@@ -268,10 +268,11 @@ plt.xlabel('月份',fontsize=12)
 
 
 
-![png](output_25_1.png)
+![各部门职位发布日期](https://github.com/incipient1/vanke_recruiting_2018_spring_shenzhen/blob/master/img/output_25_1.png)
 
 
-对于岗位发布日期，印力集团主要集中在3月份发布；其它部门在2、3月发布没有明显区别。<br>
+结论：存在金三现象<br>
+对于岗位发布日期，印力集团主要集中在3月份发布；其它部门在2、3月发布没有明显区别。结合爬取数据时选择的是近半年内的岗位，故推论得出<br>
 其实我这里想做一个横轴为日期，纵轴为招聘人数，按照部门分类的直方图，但是未能实现。故只能按照月份分类汇总。
 
 ### 学历要求
@@ -349,7 +350,7 @@ sort_values(by='Experience',ascending=True)
 
 
 
-学历不限的经验要求大于专科、本科的经验要求
+结论：学历不限的经验要求大于专科、本科的经验要求
 
 
 ```python
@@ -374,7 +375,7 @@ plt.ylabel('招聘人数',fontsize=12);
 ```
 
 
-![png](output_30_1.png)
+![学历要求](https://github.com/incipient1/vanke_recruiting_2018_spring_shenzhen/blob/master/img/output_30_1.png)
 
 
 结论：本科是起步条件
